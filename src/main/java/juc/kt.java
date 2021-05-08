@@ -3,7 +3,7 @@ package juc;
 public class kt {
     public static void main(String[] args) {
         System.out.println("使用关键字静态synchronized");
-        SyncThread syncThread22 = new SyncThread();
+        SyncThread syncThread23 = new SyncThread();
         Thread thread1 = new Thread(new SyncThread(), "SyncThread1");
         Thread thread2 = new Thread(new SyncThread(), "SyncThread2");
         thread1.start();
